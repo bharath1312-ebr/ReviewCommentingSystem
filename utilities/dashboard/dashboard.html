@@ -1,0 +1,38 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+           <h1 id="welmsg"></h1> <br><br>
+           <button onclick="logout()">Logout</button>
+           <br> <br>
+           <form>
+               <textarea id="tarea" cols="80" rows="8" placeholder="What's in your Mind?"></textarea>
+               <br> <br>
+            <button id="postbtn" onclick="post()">Post</button>
+            <button id="savebtn">Save</button>
+           </form>
+           <br> <br> 
+           <ul id="listofposts"></ul>
+           <hr>
+
+           <h3>Pending Requests</h3>
+            <ul id="pendingReqs"></ul>
+           <hr>
+
+           <h3>My Connections</h3>
+
+           <ul id="connections"></ul>
+
+
+           <h3>Available users</h3>
+
+
+           <ul id="allUsers"></ul>
+    
+
+           <script src="../utilities/util.js"></script>
+           <script src="dashboard.js"></script>
+    </body>
+</html>
